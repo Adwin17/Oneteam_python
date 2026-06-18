@@ -13,3 +13,4 @@ d=d+(['python'],)
 print(d)
 set=[12,4,5]
 print(set*4)
+
