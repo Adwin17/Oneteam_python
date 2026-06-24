@@ -94,15 +94,15 @@ def result(D):
     
 def search_name(D):
     name=input("Enter the name :")
-    x=1
+    x=0
     for i in D:
         if i["Name"].lower()==name.lower():
              print(f"Name : {i["Name"]}      Class:{i["Class"]}")
              print(f"Total Marks: {i["Total Marks"]}    Percentage:{i["Percentage"]}    Grade:{i['Grade']}")
              x=1
-             break
-        else:
-            x=0
+             continue
+             
+        
     if x==0:
         print("Name not found")
 
@@ -115,9 +115,9 @@ def search_grade(D):
              print(f"Name : {i["Name"]}      Class:{i["Class"]}")
              print(f"Total Marks: {i["Total Marks"]}    Percentage:{i["Percentage"]}    Grade:{i['Grade']}")
              y=0
-             break
+             
     if y==1:
-        print(" Entered Invalid Grade ")
+        print(" Entered Invalid Grade or Grade not found")
             
 
 
