@@ -76,18 +76,19 @@ def calculate_bmi():
         h=float(input("Enter the height in m"))
         b={18.5:"Underweight",24.9:"Normal Weight",29.9:"Overweight"}
 
-        if w and h >0:
+        if w>0  and h >0:
             bmi=w//(h**2)
             for i in b:
                 if  bmi<=i:
                     
                     return bmi,b[i]
-                else:
-                    return bmi,"obese"
+            else:
+                    return bmi,"Obese"
         else:
             print("Invalid Input")
     except Exception as e:
         return ("Error occured",e)
+    
     
     
 
