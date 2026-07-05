@@ -68,7 +68,7 @@ for i in range (1,n+1):
 
 
 #BMI calculator 
-'''
+
 def calculate_bmi():
    
     try:
@@ -87,14 +87,14 @@ def calculate_bmi():
         else:
             print("Invalid Input")
     except Exception as e:
-        print("Error occured",e)
-    '''
+        return ("Error occured",e)
+    
     
 
     
         
         
-# print(calculate_bmi())
+print(calculate_bmi())
 
 
 
