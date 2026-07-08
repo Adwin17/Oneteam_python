@@ -17,7 +17,7 @@ def prime(n):
 prime(5)
 '''
 # *args --> stores in a tuple
-'''
+
 def add(*args):
     print(args)
     x=0
@@ -26,7 +26,7 @@ def add(*args):
     print(x)
 
 add(24,52,63,69)
-'''
+
 # keyword arguments
 '''def greet(name,age,place="Kochi",course=None):
     print(f'Hello {name} you are {age} years old')
@@ -52,9 +52,11 @@ def fact(n):
         return n*fact(n-1)
 print(fact(5))
 '''
+'''
 # lambda
 add=lambda a,b :a+b
 print(add(9,1))
 
 even= lambda n : n%2==0
 print(even(93))
+'''
