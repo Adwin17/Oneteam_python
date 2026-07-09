@@ -39,9 +39,23 @@ else:
 '''
 
 # list comprehension
-
+"""
 l=[x for x in range(10) if x%2==0]
 print(l)
+"""
+
+# pyramid with star at odd and # at even postion
+'''
+for i in range(1,6):
+    print(" "*(5-i),end="")
+    for j in range(1,i*2):
+        if j%2!=0:
+            print("*",end="")
+            
+        if j%2==0:
+            print("#",end="")
+    print()
+'''
 
 
         
