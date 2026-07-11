@@ -1,4 +1,4 @@
-'''
+
 class Student:
     course="Java"
 
@@ -22,5 +22,5 @@ s=Student("Adwin")
 s.year(2008)
 print(s.name,s.year,s.course)
 Student.show() #static method
-'''
+
 
