@@ -13,4 +13,4 @@ total=reduce(lambda a,b:a+b,numbers)
 print(total)
 
 k=reduce(lambda a,b:a*b, range(1,6))
-print(k)
+print(k) 
