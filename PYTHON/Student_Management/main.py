@@ -10,7 +10,7 @@ def print_menu():
     print("3. Search Student")
     print("4. Update Student")
     print("5. Delete Student")
-    print("6.View All Students")
+    print("6. View All Student Names")
     print("7. Exit")
     print("=" * 50)
 
